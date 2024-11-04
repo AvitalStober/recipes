@@ -14,7 +14,7 @@ const Card: React.FC<CardProps> = ({ recipe }) => {
   const { recipeId } = useParams();
 
   return (
-    <div className="w-[90%] m-10 border border-solid border-blue-800 border-3">
+    <div className="w-[90%] m-5 border border-solid border-blue-800 border-3">
       <h1 className="font-bold text-2xl my-10 text-center">{recipe.name}</h1>
 
       <div className="flex text-sm">
