@@ -13,6 +13,7 @@ function NavBar() {
     { text: "services", href: "/pages/services" },
     { text: "contact", href: "/pages/contact" },
     { text: "recipes", href: "/pages/recipes" },
+    { text: "todo list", href: "/pages/todoList" },
   ];
   return (
     <div className="flex h-16 justify-around">
