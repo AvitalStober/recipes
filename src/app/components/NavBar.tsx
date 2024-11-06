@@ -14,6 +14,7 @@ function NavBar() {
     { text: "contact", href: "/pages/contact" },
     { text: "recipes", href: "/pages/recipes" },
     { text: "todo list", href: "/pages/todoList" },
+    { text: "react-query", href: "/pages/reactQuery/pages" },
   ];
   return (
     <div className="flex h-16 justify-around">
